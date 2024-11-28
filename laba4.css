@@ -1,0 +1,374 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: grid;
+}
+.line
+{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 10%;
+}
+.mainText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+body
+{
+    font-family: "DM Sans", sans-serif;
+}
+header
+{
+    background-color: white;
+    display: flex;
+}
+main
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(bgr.avif);
+}
+.material-symbols-outlined
+{
+    cursor: pointer;
+    color: #c2bdbe;
+    display: none;
+  }
+.search
+{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border: 0.2px solid rgb(189, 184, 184);
+}
+.search-input
+{
+    border: none;
+    outline: none;
+}
+input
+{
+font-size: 10px;
+}
+
+
+
+.mainButtons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6385b;
+    cursor: pointer;
+    transition: 1s;
+    justify-self: flex-end;
+}
+.picture
+{
+    width: 30%;
+    height: 30%;
+}
+.buttonText
+{
+    font-size: calc(1vh + 0.5vw);
+    text-align: center;
+    vertical-align: middle;
+}
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.underMottoText
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: calc(1vh + 0.45vw);
+
+}
+
+.divText
+{
+    font-size: calc(0.8vh + 0.5vw);
+    font-style: italic;
+    color: #868686;
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/icon/font?kit=kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOejHdwIyUFeur0&skey=b8dc2088854b122f&v=v220) format('woff2');
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+
+.mainMotto
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: calc(3vh + 1.4vw);
+}
+.leftBlock, .middleBlock, .rightBlock
+{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.footerMainText
+{
+    text-align: center;
+    font-size: calc(0.9vh + 0.5vw);
+    color: white;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(189, 189, 189);
+}
+.logo
+{
+    color: rgb(128, 126, 126);
+    font-size: calc(1.7vh + 1vw);
+    width: 20%;
+}
+
+@media screen and (min-width: 769px) {
+    
+header{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 7vh;
+}
+main
+{
+    height: 83vh;
+    padding-top: 4.2vh;
+    padding-bottom: 6.2vh;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    flex-direction: column;
+}
+
+.mainText{
+    min-height: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.mainSections
+{
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    min-height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+}
+.footerMainBlock
+{
+    height: 5%;
+}
+.leftBlock, .middleBlock, .rightBlock
+{
+    justify-content: center;
+    padding: 1.5%;
+    min-height: 100%;
+    width: 40%;
+}
+.divText
+{
+    height: 35%;
+    overflow: hidden;
+}
+@media screen and (max-width: 1108px) 
+{
+
+}
+
+nav > ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3vw;
+    
+}
+li{
+    box-sizing: 10vhg;
+    font-size: calc(1.2vh + 0.5vw);
+}
+footer
+{
+    min-height: 10vh;
+}
+h3{
+    font-size: calc(1vh + 1vw);
+}
+.menu{
+    display: grid;
+}
+
+.line
+{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 10%;
+}
+.mainButtons
+{
+    height: 15%;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+}
+@media screen and (max-width: 768px)
+{
+    img{
+    }
+    h3{
+        font-size: calc(2vh + 1vw);
+    }
+    .divText
+    {
+    font-size: calc(1.5vh + 0.5vw);
+    }
+    .menu
+    {
+        padding-top: 5px;
+        height: 30px;
+        width: 35px;
+        align-self: center;
+    }
+
+    #search-input {
+        padding: 10px; 
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    header
+    {
+        padding-top: 2vh;
+        width: 100%;
+        display: flex;
+        min-height: 8vh;
+        row-gap: 1vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 2vh;
+        justify-content: space-between;
+        align-items: center;
+        
+    }  
+
+    body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }  
+    main{
+        padding-top: 3vh;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainSections
+    {
+    padding-top: 4vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2.5vh;
+    }
+    .leftBlock, .middleBlock, .rightBlock
+    {
+        height: auto;
+        padding: 2.5%;
+    }
+    .mainButtons
+    {
+        width: 15vw;
+    }
+    .buttonText
+    {
+        font-size: calc(1.5vh + 0.5vw);
+        text-align: center;
+        vertical-align: middle;
+    }
+    ul{
+        display: none;
+    }
+    footer
+    {
+        min-height: 6vh;
+    }
+    .logo
+    {
+        font-size: 3vh;
+    }
+    .footerMainText
+    {
+        font-size: calc(1vh + 0.5vw);
+    }
+
+
+
+}
+
+
